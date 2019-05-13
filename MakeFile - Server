@@ -1,0 +1,5 @@
+all:
+        gcc -o vpnserver vpnserver.c
+
+clean:
+        rm vpnserver vpnclient
